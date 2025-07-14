@@ -4,29 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eShop - Your one stop shop for all things tech</title>
+    <title>eShop - Your Online Store</title>
 
-    <!-- Tailwind CSS CDN -->
+    <!-- Tailwind CSS CDN 3.x version-->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Font Awesome CDN version 6.5.0-->
+    <!-- Icon library for all icons including arrows, shopping cart, social media etc -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google Fonts -->
+    <!-- Roboto font family for clean, modern typography -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
+    <!-- Website icon displayed in browser tab -->
     <link rel="icon" type="image/x-icon" href="./icons/favicon.ico">
 
     <!-- Custom CSS -->
+    <!-- External stylesheet for custom animations, glassmorphism effects, and blue theme -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-
-    <!-- Modern Navbar with Sky Blue Theme -->
+    <!-- Sky blue themed navbar with eShop branding -->
     <nav class="bg-sky-500 p-4 shadow-lg sticky top-0 z-50">
         <div class="container mx-auto">
             <div class="flex justify-between items-center">
@@ -53,17 +56,16 @@
                                 class="absolute -top-1 -right-1 bg-sky-200 text-sky-800 text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">5</span>
                         </a></li>
                 </ul>
-                <button class="md:hidden text-white hover:text-emerald-200 text-xl">
+                <button class="md:hidden text-white hover:text-sky-200 text-xl">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
     </nav>
 
-
     <div id="home" class="content container mx-auto mt-10 px-4">
 
-        <!-- Hero Section -->
+        <!-- Hero section with gradient text, sky blue buttons, and glassmorphism cards -->
         <section class="text-center mb-16 animate-fade-in-up">
             <div class="max-w-4xl mx-auto">
                 <h1 class="text-6xl md:text-7xl font-bold mb-6 gradient-text">
@@ -108,7 +110,7 @@
             </div>
         </section>
 
-        <!-- Enhanced Carousel Section -->
+        <!-- Carousel section with navigation controls and sky blue indicators -->
         <section id="carousel-section" class="mb-16 animate-fade-in-up">
             <h2 class="text-4xl font-bold text-center mb-8 gradient-text">Featured Collections</h2>
             <div class="relative max-w-6xl mx-auto">
@@ -180,7 +182,7 @@
             </div>
         </section>
 
-        <!-- Features Section -->
+        <!-- Features section with sky blue icon backgrounds -->
         <section id="about" class="mb-16 animate-fade-in-up">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold mb-4 gradient-text">Why Choose eShop?</h2>
@@ -219,7 +221,7 @@
             </div>
         </section>
 
-        <!-- Product Grid -->
+        <!-- Product grid with sky blue pricing and hover effects -->
         <section id="products" class="mb-16 animate-fade-in-up">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold mb-4 gradient-text">Trending Products</h2>
@@ -345,7 +347,7 @@
             </div>
         </section>
 
-        <!-- Table with List of Products -->
+        <!-- Product catalog table with sky blue header and hover states -->
         <section class="mb-16 animate-fade-in-up">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold mb-4 gradient-text">Complete Product Catalog</h2>
@@ -482,7 +484,7 @@
             </div>
         </section>
 
-        <!-- Enhanced Pagination -->
+        <!-- Pagination with sky blue active states -->
         <section class="mb-16">
             <nav class="flex justify-center">
                 <ul class="inline-flex items-center space-x-2 bg-white rounded-2xl shadow-lg p-3">
@@ -523,8 +525,7 @@
 
     </div>
 
-
-    <!-- Footer -->
+    <!-- Footer with sky blue gradient background and social links -->
     <footer id="contact" class="bg-gradient-to-r from-sky-800 via-sky-700 to-cyan-600 text-white">
         <div class="container mx-auto px-4 py-16">
             <!-- Newsletter Section -->
@@ -700,9 +701,9 @@
         </div>
     </footer>
 
-    <!-- Floating Action Button -->
+    <!-- Floating action button with sky blue gradient and up arrow -->
     <button onclick="scrollToTop()"
-        class="fixed bottom-6 right-6 bg-gradient-to-r from-sky-500 to-sky-600 text-white w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 opacity-100"
+        class="fixed bottom-6 right-6 bg-gradient-to-r from-sky-500 to-sky-600 text-white w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 opacity-0 pointer-events-none"
         id="scrollToTopBtn">
         <i class="fas fa-arrow-up text-xl"></i>
     </button>
